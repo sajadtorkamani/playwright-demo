@@ -6,7 +6,8 @@
   "scripts": {
     "format:check": "prettier --check tests/ tests-examples/",
     "format:fix": "prettier --write tests/ tests-examples/",
-    "test": "playwright test"
+    "test": "playwright test",
+    "test:debug": "playwright test --debug"
   },
   "keywords": [],
   "author": "Sajad Torkamani <sajadtorkamani1@gmail.com>",
